@@ -1,0 +1,26 @@
+<annotation>
+	<folder>mast_images</folder>
+	<filename>mast_0.png</filename>
+	<path>C:\Users\Owner\Documents\Aerial Robotics\mast_images\mast_0.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>360</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mast</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>69</xmin>
+			<ymin>83</ymin>
+			<xmax>252</xmax>
+			<ymax>439</ymax>
+		</bndbox>
+	</object>
+</annotation>
