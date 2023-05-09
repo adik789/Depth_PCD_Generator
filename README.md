@@ -1,4 +1,5 @@
 ## Code to generate a depth image and point cloud file from a normal, single image
+This repository 
 
 This repository uses an already developed model that converts from single images to depth images by René Ranftl, Alexey Bochkovskiy, Vladlen Koltun.  This repository can be found here: https://github.com/isl-org/MiDaS
 
@@ -15,6 +16,12 @@ pip install --trusted-host www.open3d.org -f http://www.open3d.org/docs/latest/g
 
 Install other needed libraries:
 All of the needed libraries shoud already be installed if you followed the setup in the linked repository above.  However, if there are any libaries that still need to be installed, you will be prompted to do so by PyCharm when you try to run the depth map generation, and you can just install these either through pip or through PyCharm itself.
+
+### Open3D
+
+In order to generate the point cloud + point cloud viewer, open3D is used.  Currently the camera parameters in the file ```to_pc_code.py``` assume that the camera that was used is a Pinhole Camera, which is obviously not the case.  This will be updated in the future.  If you make any modifications to the code, I would recommend testing everything except the point cloud generation in CoLab, which has pretty good support for Open3D.
+
+Open3D's documentation can be found here :http://www.open3d.org/docs/release/getting_started.html
 
 ### Running
 
